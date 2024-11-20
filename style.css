@@ -1,0 +1,52 @@
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #1F1F1F;
+    padding: 20px;
+}
+
+h1 {
+    color: #FF007C;
+}
+
+section {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #1F1F1F;
+}
+
+.room, #general-chat, #private-matches {
+    border: 1px solid #FF007C;
+}
+
+button {
+    background-color: #FF007C;
+    color: #FFF;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF2D92;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    width: calc(100% - 20px);
+}
